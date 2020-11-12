@@ -4039,7 +4039,7 @@ Dev_Abs(msg.chat_id_, msg.id_, 1,[[
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
 ⌁︙نقاطي • بيع نقاطي
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/White_of_Black)
+⌁︙[Source Channel](https://t.me/witblk)
 ]], 1, 'md')
 end
 end
@@ -4198,13 +4198,15 @@ end
 --     Source DevProx     --
 if text:match("^السورس$") or text:match("^سورس$") then 
 local text =  [[
-♯﹅ sᴏᴜʀᴄᴇ (http://t.me/White_of_Black)  ✘ #𝗖𝗮𝗥𝗟𝗢𝗦 (http://t.me/J2222J) ✘
-   ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♯﹅ ᴄʜ sᴏᴜʀᴄᴇ (http://t.me/White_of_Black) ✘ 
-   ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-♯﹅ ᴅᴇᴠᴇʟᴏᴘᴇʀ (http://t.me/J2222J)  ✘ 
-   ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-   [𝗧𝗛𝗜𝗦 𝗜𝗦 𝗔 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 𝗦𝗢𝗨𝗥𝗖𝗘](http://t.me/White_of_Black)
+┌─────── CR ───────┐
+⋄︙[𝘸𝘦𝘭𝘤𝘰𝘮𝘦 𝘵𝘰 𝘴𝘰𝘶𝘳𝘤𝘦 𝗐𝗂𝗍 𝖻𝗅𝗄](http://t.me/witblk)
+    ┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+⋄︙[𝘪𝘯𝘧𝘰𝘳𝘮𝘢𝘵𝘪𝘰𝘯](http://t.me/Fileswitblk)
+    ┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+⋄︙[𝘥𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳](http://t.me/J2222J)
+    ┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+⋄︙[𝘵𝘸𝘴 𝘵𝘦𝘢𝘮](http://t.me/J2222J)
+└───────CR───────┘
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, 'md')
 end
@@ -8151,7 +8153,7 @@ local TXTE = "⌁︙اعدادات المجموعة ↫ ⤈\n┉ ≈ ┉ ≈ ┉
 .."⌁︙خاصية التكرار ↫ "..floodstatus.."\n"
 .."⌁︙عدد التكرار ↫ [ "..flood_m.." ]\n"
 .."⌁︙عدد السبام ↫ [ "..spam_c.." ]\n"
-.."┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n⌁︙[𝗧𝗘𝗔𝗠 𝗗𝗘𝗩](https://t.me/White_of_Black)\n"
+.."┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n⌁︙[𝗧𝗘𝗔𝗠 𝗗𝗘𝗩](https://t.me/witblk)\n"
 Dev_Abs(msg.chat_id_, msg.id_, 1, TXTE, 1, 'md')
 end
 end
@@ -9115,7 +9117,7 @@ local text =  [[
 ⌁︙م5 ↫ اوامر المطورين
 ⌁︙م6 ↫ اوامر الاعضاء
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/White_of_Black)
+⌁︙[Source Channel](https://t.me/witblk)
 ]] 
 Dev_Abs(msg.chat_id_, msg.id_, 1, (help or text), 1, 'md')
 end
@@ -9176,7 +9178,7 @@ local text =  [[
 ⌁︙البوتات بالطرد
 ⌁︙البوتات بالتقييد
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/White_of_Black)
+⌁︙[Source Channel](https://t.me/witblk)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (help or text), 1, 'md')
 end
@@ -9252,7 +9254,7 @@ local text =  [[
 ⌁︙تقييد يوم + عدد الايام
 ⌁︙الغاء تقييد ↫ لالغاء التقييد بالوقت
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/White_of_Black)
+⌁︙[Source Channel](https://t.me/witblk)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (help or text), 1, 'md')
 end
@@ -9308,7 +9310,7 @@ local text =  [[
 ⌁︙تفعيل • تعطيل ↫ تنبيه التغيرات
 ⌁︙تفعيل • تعطيل ↫ الايدي بالصوره
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/White_of_Black)
+⌁︙[Source Channel](https://t.me/witblk)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (help or text), 1, 'md')
 end
@@ -9358,7 +9360,7 @@ local text =  [[
 ⌁︙المنشئين الاساسيين 
 ⌁︙حذف جميع الرتب
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/White_of_Black)
+⌁︙[Source Channel](https://t.me/witblk)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (help or text), 1, 'md')
 end
@@ -9439,7 +9441,7 @@ local text =  [[
 ⌁︙تفعيل • تعطيل ↫ البوت الخدمي
 ⌁︙تفعيل • تعطيل ↫ الاشتراك الاجباري
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/White_of_Black)
+⌁︙[Source Channel](https://t.me/witblk)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (help or text), 1, 'md')
 end end
@@ -9481,7 +9483,7 @@ local text =  [[
 ⌁︙صيحه • صيحها ↫ بالرد • بالمعرف
 ⌁︙ايدي • كشف  ↫ بالرد • بالمعرف • بالايدي
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-⌁︙[Source Channel](https://t.me/White_of_Black)
+⌁︙[Source Channel](https://t.me/witblk)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (help or text), 1, 'md')
 end
@@ -9597,7 +9599,7 @@ Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙لم يتم تعيين قناة الا�
 end end end end
 --     Source DevProx     --
 if text and text:match("^القناة$") or text and text:match("^قناة السورس$") or text and text:match("^قنات السورس$") then
-Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙Channel ↬ @White_of_Black', 1, 'html')    
+Dev_Abs(msg.chat_id_, msg.id_, 1, '⌁︙Channel ↬ @witblk', 1, 'html')    
 end 
 --     Source DevProx     --
 if is_leader(msg) then 
