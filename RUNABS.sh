@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 THIS_DIR=$(cd $(dirname $0); pwd)
+Version=`lsb_release -rs | cut -f1 -d"."`
 cd $THIS_DIR
 install() {
 reset
@@ -65,6 +66,12 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 reset
 
 echo -e "\e[38;5;77m                             {100%}\e[0m"
+if [ "$Version" == "18" ];then
+  echo -e "${WHITB}\n¦ Installing depedencies for ubuntu 18  ... \n${CNIL}"
+  cd /lib/x86_64-linux-gnu/ && sudo ln -s libreadline.so.7.0 libreadline.so.6
+  wget "ibotcorp.com/files/compat-libevent2-5_2.0.21-1ubuntu18_amd64.deb" && sudo dpkg -i compat-libevent2-5_2.0.21-1ubuntu18_amd64.deb
+  rm compat-libevent2-5_2.0.21-1ubuntu18_amd64.deb
+fi
 sudo apt-get update 
 sudo apt-get upgrade -y
 reset
