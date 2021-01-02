@@ -78,7 +78,7 @@ reset
 echo -e "\e[38;5;77m    ---------------------------------------------\e[0m"
 cd ..
 rm -rf luarocks*
-./tg -s DevProx.lua
+./tg -s WITBLaK.lua
 }
 if [ "$1" = "install" ]; then
 install
